@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+/* {
+    --purple-bg: #290742;
+    --dark-bg: #170027;
+    --button-bg: #9e6dc2;
+    --white: #fff;
+    --light-purple: #fbf6ff;
+    --green: #4fff4b;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    */
+header {
+    background-color: #290742;
+    border-bottom: solid #4fff4b 5px;
+}
+.logo {
+    height: 100px;
+}
+.container {
+  display: flex;
+  padding: 46px 110px;
+  justify-content: space-between;
+  align-items: center;
+}
+.container nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 32px;
+}
+.container nav ul li a {
+    font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: #fbf6ff;
+  border-left: 2px solid transparent;
+  transition: border-color 0.2s ease-in-out;
+}
+.container nav ul li a:hover {
+    font-weight: 500;
+    color: #fff;
+    border-color: #4fff4b;
+    padding-left: 1px;
+  }
+.search {
+    display: flex;
+    align-items: center;
+}
+.search input {
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 10px 10px 16px;
+    background-color: #170027;
+    color: #fbf6ff;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+.search input:focus {
+    outline-color: #4fff4b;
+}
+.search button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 16px;
+    background-color: #9e6dc2;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+.search img {
+    height: 20px;
+}
+.sub {
+    display: flex;
+    padding: 0px 110px 46px;
+    gap: 90px;
+    justify-content: space-between;
+} 
+.img img {
+    height: 380px;
+}
+.txt {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+.txt p {
+    width: 500px;;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #fbf6ff;
+}
+.txt h1 {
+    font-size: 38px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #9e6dc2;
+}
+.txt a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    text-decoration: none;
+    color: #9e6dc2;
+}
+.txt a:hover {
+    text-decoration: underline #4fff4b;
+}
