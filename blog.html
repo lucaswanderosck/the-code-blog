@@ -4,24 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Code Blog</title>
+    <title>The Code Blog - Artigos e Dicas sobre Tecnologia e Programação</title>
     <link rel="stylesheet" href="blog-style.css" />
   </head>
   <body>
-    <header>
+    <header id="home">
       <div class="container">
-        <img class="logo" src="images/logo.png" alt="logo" />
+        <img class="logo" src="images/logo.png" alt="logo the code blog" />
         <nav>
           <ul>
-            <li><a href="" title="Ir para Home">Home</a></li>
-            <li><a href="" title="Ir para Sobre">Sobre</a></li>
-            <li><a href="" title="Ir para Categorias">Categorias</a></li>
+            <li><a href="#home" title="Ir para Home">Home</a></li>
+            <li><a href="#noticias" title="Ir para Notícias">Notícias</a></li>
+            <li><a href="#dicas" title="Ir para Dicas">Dicas</a></li>
             <li><a href="#contact" title="Ir para Contato">Contato</a></li>
           </ul>
         </nav>
         <div class="search">
-          <input type="search" name="" id="" placeholder="Buscar" />
-          <button><img src="images/search.svg" alt="pesquisa" /></button>
+          <input type="search" name="" id="pesq" placeholder="Buscar" />
+          <button type="submit" id="pesq"><img src="images/search.svg" alt="pesquisa" /></button>
         </div>
       </div>
       <div class="sub">
@@ -35,26 +35,23 @@
             repleto de habilidades essenciais e estratégias que irão impulsionar
             sua carreira de programador.
           </p>
-          <a href="" title="veja mais"
-            >Veja mais<img src="images/arrow-right.svg" alt="setinha"
-          /></a>
+          <a href="" title="veja mais">Veja mais<img src="images/arrow-right.svg" alt="setinha" /></a>
         </div>
         <img src="images/featured-image.png" alt="imagem futurista" />
       </div>
     </header>
     <main>
-      <div class="seçao1">
+      <section class="seçao1" id="noticias">
         <article class="article1">
-          <img src="images/post-1.png" alt="post 1" />
+          <img src="images/post-1.png" alt="imagem notebook" />
           <header>
             <time>Abril 11, 2023</time>
           </header>
-          <h2>Começando no ReactJS em 2023</h2>
+          <a href="">Começando no ReactJS em 2023</a>
           <p>
             Aprenda a desenvolver aplicações web modernas com o ReactJS, a
-            popular biblioteca JavaScript. Aprenda na prática, desde
-            o básico até a criação de aplicativos completos com a mais recente
-            tecnologia
+            popular biblioteca JavaScript. Aprenda na prática, desde o básico
+            até a criação de aplicativos completos com a mais recente tecnologia.
           </p>
         </article>
         <div class="lado">
@@ -62,88 +59,124 @@
             <header>
               <time>Abril 11, 2023</time>
             </header>
-            <h2>
-              Conheça as principais técnicas para conseguir uma vaga
-              internacional na programação
-            </h2>
+            <a href=""> Conheça as principais técnicas para conseguir uma vaga
+              internacional na programação</a>
             <p>
-              Descubra as estratégias mais eficazes para se candidatar a vagas de programação no exterior, desde aprimorar habilidades técnicas até criar uma rede de contatos internacional.
+              Descubra as estratégias mais eficazes para se candidatar a vagas
+              de programação no exterior, desde aprimorar habilidades técnicas
+              até criar uma rede de contatos internacional.
             </p>
           </article>
           <article class="article3">
             <header>
               <time>Abril 11, 2023</time>
             </header>
-            <h2>Veja a evolução do Front-end na prática</h2>
+            <a href="">Veja a evolução do Front-end na prática</a>
             <p>
-              Explore a história da evolução do desenvolvimento front-end, desde a criação do HTML até as tecnologias mais recentes como React e Vue.js. Aprenda a aplicar esses conceitos na prática e leve suas habilidades front-end para o próximo nível.
+              Explore a história da evolução do desenvolvimento front-end, desde
+              a criação do HTML até as tecnologias mais recentes como React e
+              Vue.js. Aprenda a aplicar esses conceitos na prática e leve suas
+              habilidades front-end para o próximo nível.
             </p>
           </article>
         </div>
-      </div>
-      <div class="seçao2">
+      </section>
+      <section class="seçao2" id="dicas">
         <article class="article4">
-          <img src="images/post-2.png" alt="">
+          <img src="images/post-2.png" alt="homem com notebook" />
           <header>
             <time>Abril 11, 2023</time>
           </header>
-          <h2>10 dicas para conseguir a vaga desejada</h2>
+          <a href="">10 dicas para conseguir a vaga desejada</a>
           <p>
-            Aprenda como se destacar na busca por empregos e conseguir a posição desejada.
+            Aprenda como se destacar na busca por empregos e conseguir a posição
+            desejada.
           </p>
         </article>
-      <article class="article5">
-        <img src="images/post-3.png" alt="">
-        <header>
-          <time>Abril 11, 2023</time>
-        </header>
-        <h2>Deixe seu código mais semântico com essas dicas</h2>
-        <p>
-          Descubra técnicas para tornar o seu código mais claro e fácil de entender.
-        </p>
-      </article>
-      <article class="article6">
-        <img src="images/post-4.png" alt="">
-        <header>
-          <time>Abril 11, 2023</time>
-        </header>
-        <h2>Use essas dicas nas suas aplicações mobiles</h2>
-        <p>
-          Aprenda dicas práticas para melhorar a qualidade das suas aplicações mobiles.
-        </p>
-      </article>
-      </div>
+        <article class="article5">
+          <img src="images/post-3.png" alt="imagem de um código" />
+          <header>
+            <time>Abril 11, 2023</time>
+          </header>
+          <a href="">Deixe seu código mais semântico com essas dicas</a>
+          <p>
+            Descubra técnicas para tornar o seu código mais claro e fácil de
+            entender.
+          </p>
+        </article>
+        <article class="article6">
+          <img src="images/post-4.png" alt="imagem do celular" />
+          <header>
+            <time>Abril 11, 2023</time>
+          </header>
+          <a href="">Use essas dicas nas suas aplicações mobiles</a>
+          <p>
+            Aprenda dicas práticas para melhorar a qualidade das suas aplicações
+            mobiles.
+          </p>
+        </article>
+      </section>
     </main>
     <section id="contact">
       <h3>Contato</h3>
-          <div class="contact-methods">
-          <div class="formulario">
-            <h3>Fale conosco</h3>
-            <form action="">             
-              <input type="text" name="nome" id="nome" placeholder="Seu nome" required>              
-              <input type="email" name="mail" id="mail" placeholder="Seu email" required>
-              <input type="tel" name="tel" id="tel" placeholder="Seu telefone (opcional)">
-              <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Sua mensagem" required></textarea>
-              <button type="submit">Enviar</button>
-            </form>
-          </div>
-          <div class="social-links">
-            <h3>Nos acompanhe</h3>
-            <ul>
-              <li><a href=""> <img src="images/2959748_instagram_photo_share_icon.png" alt=""></a></li>
-              <li><a href=""> <img src="images/211904_social_github_icon.png" alt=""></a></li>
-              <li><a href=""> <img src="images/2959747_employment_business_linkedin_work_icon.png" alt=""></a></li>
-              <li><a href=""> <img src="images/843786_whatsapp_icon.png" alt=""></a></li>
-            </ul>
-          </div>
-          <div>
-            <h3>Venha até nós</h3>
-            <p>Rua JavaScript n° 124, Vila HTML - São Paulo - SP</p>
-          </div>
-          </div>
+      <div class="contact-methods">
+        <div class="formulario">
+          <h3>Fale conosco</h3>
+          <form action="">
+            <input
+              type="text"
+              name="nome"
+              id="nome"
+              placeholder="Seu nome"
+              required
+            />
+            <input
+              type="email"
+              name="mail"
+              id="mail"
+              placeholder="Seu email"
+              required
+            />
+            <input
+              type="tel"
+              name="tel"
+              id="tel"
+              placeholder="Seu telefone (opcional)"
+            />
+            <textarea
+              name="msg"
+              id="msg"
+              cols="30"
+              rows="10"
+              placeholder="Sua mensagem"
+              required
+            ></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+        <div class="social-links">
+          <h3>Nos acompanhe</h3>
+          <ul>
+            <li>
+              <a href=""><img src="images/2959748_instagram_photo_share_icon.png" alt="imagem instagram" /></a>
+            </li>
+            <li>
+              <a href=""><img src="images/211904_social_github_icon.png" alt="imagem github" /></a>
+            </li>
+            <li>
+              <a href=""><img src="images/2959747_employment_business_linkedin_work_icon.png" alt="imagem linkedin" /></a>
+            </li>
+            <li>
+              <a href=""><img src="images/8666536_youtube_icon.png" alt="imagem youtube" /></a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3>Venha até nós</h3>
+          <p>Rua JavaScript n° 124, Vila HTML - São Paulo - SP</p>
+        </div>
+      </div>
     </section>
-    <footer>
-      &copy;The Code Blog - Create for @lucaswanderosck - 2023
-    </footer>
+    <footer>&copy;The Code Blog - Create for @lucaswanderosck - 2023</footer>
   </body>
 </html>
