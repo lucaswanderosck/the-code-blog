@@ -10,6 +10,9 @@ body > header {
   background-color: #290742;
   border-bottom: solid #4fff4b 5px;
 }
+html {
+  scroll-behavior: smooth;
+}
 .logo {
   height: 100px;
 }
